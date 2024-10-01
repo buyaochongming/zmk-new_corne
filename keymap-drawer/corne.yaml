@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   default:
-  - Ctl+ X
+  - {t: '5', s: '%'}
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - '"'
-  - Ctl+ Z
+  - '4'
   - A
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - L
   - ':'
   - '?'
-  - PgDn
+  - '3'
   - Z
   - X
   - C
@@ -40,9 +40,9 @@ layers:
   - {t: ., s: '>'}
   - ^
   - '!'
-  - '&mkp MB1'
-  - Ctl+ C
-  - Ctl+ V
+  - '&mkp MB2'
+  - '2'
+  - PgDn
   - lower
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -50,12 +50,12 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   lower:
-  - PG UP
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - BT CLR ALL
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: \, s: '|'}
   - _
@@ -63,38 +63,38 @@ layers:
   - )
   - '%'
   - '@'
-  - BT CLR ALL
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '''', s: '"'}
   - '~'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '&bl BL_DEC'
-  - '&bl BL_TOG'
   - <
   - '>'
-  - {t: ;, s: ':'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - RGB HUD
-  - RGB SAI
-  - RGB COLOR HSB(111,24,62)
-  - RGB BRD
-  - RGB BRI
-  - RGB TOG
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ;, s: ':'}
+  - '|'
+  - Ctl+ Z
+  - Ctl+ S
   - '&soft_off'
+  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - EP OFF
-  - $$mdi:mouse-right-click-outline$$
-  - '|'
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ X
   - $$mdi:mouse-left-click-outline$$
