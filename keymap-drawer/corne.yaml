@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
-  default:
+  QWERTY:
   - {t: '5', s: '%'}
   - Q
   - W
@@ -40,16 +40,16 @@ layers:
   - {t: ., s: '>'}
   - ^
   - '!'
-  - '&mkp MB2'
+  - $$mdi:apple-keyboard-control$$
   - '2'
   - PgDn
-  - lower
+  - NUMBER
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  lower:
+  NUMBER:
   - BT CLR ALL
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
@@ -85,8 +85,8 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: ;, s: ':'}
   - '|'
-  - Ctl+ Z
-  - Ctl+ S
+  - Ctl+Z
+  - Ctl+S
   - '&soft_off'
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -94,7 +94,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - Ctl+ C
-  - Ctl+ V
-  - Ctl+ X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+X
   - $$mdi:mouse-left-click-outline$$
