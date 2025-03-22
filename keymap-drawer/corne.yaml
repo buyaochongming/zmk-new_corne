@@ -40,9 +40,9 @@ layers:
   - {t: ., s: '>'}
   - ^
   - '!'
-  - $$mdi:apple-keyboard-control$$
+  - '&mkp MB2'
   - '2'
-  - PgDn
+  - $$mdi:apple-keyboard-control$$
   - NUMBER
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
