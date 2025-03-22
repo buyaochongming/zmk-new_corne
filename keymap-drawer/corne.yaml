@@ -40,7 +40,7 @@ layers:
   - {t: ., s: '>'}
   - ^
   - '!'
-  - '&mkp MB2'
+  - $$mdi:mouse-right-click-outline$$
   - '2'
   - $$mdi:apple-keyboard-control$$
   - NUMBER
